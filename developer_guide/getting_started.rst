@@ -17,14 +17,14 @@ Steps for setting up a development environment for tryton.
    and **>>>**
    You can exit by calling the function **exit()** or by pressing **ctrl+d**
 
-2. Next, Install Posgres database. Steps for installing Postgres can be
+2. Next, Install Postgres database. Steps for installing Postgres can be
    found from `Postgres Installation <http://wiki.postgresql.org/wiki/Detailed_installation_guides/>`_
    Install the database and give the database user postgres a new
    password.
 
 3. Set up the virtual environment and install tryton client and trytond.
    You can directly install Tryton using pip command-line tool in your
-   virtualev.
+   computer or virtualev.
 
     .. code-block:: bash
 
