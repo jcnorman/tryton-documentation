@@ -27,12 +27,16 @@ Steps for setting up a development environment for tryton.
    virtualev.
 
     .. code-block:: bash
-
+        $ pip install tryton
         $ pip install trytond
         $ pip install tryton_module_name
 
     Replace module_name with the name of the module you want to install
 
+   N.B. In Version 3.2, images are installed in /usr/local instead of /usr.  To fix:
+      $ cd /usr/share/pixmaps
+      $ sudo mkdir tryton
+      $ sudo ln /usr/local/share/tryton/* /usr/share/pixmaps/tryton
 
 Using HgNested
 ~~~~~~~~~~~~~~
